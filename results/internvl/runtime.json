@@ -1,0 +1,11 @@
+{
+  "gpu_workers": 4,
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "cpu_threads_per_worker": 2,
+  "collection_wall_seconds": 399.09293,
+  "summed_worker_seconds": 1555.7335267680173,
+  "summed_generation_seconds": 1528.3806800794555,
+  "peak_allocated_gb_per_gpu": 18.009929728,
+  "mean_output_tokens": 74.24479166666667,
+  "collection_requests": 768
+}

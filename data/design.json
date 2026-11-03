@@ -1,0 +1,6213 @@
+{
+  "order_seed": 20260909,
+  "n_images": 48,
+  "n_runs_per_model": 768,
+  "temperature": 0.7,
+  "max_tokens": 256,
+  "prompts": {
+    "neutral_0": "You are an adult observer. Identify exactly three clearly visible objects in this image, in order of relevance to your perspective. For each, give its name and one physically plausible use supported by its visible properties. Do not invent objects to suit your role. If a role-specific use is unavailable, give an ordinary use of a visible object. Return only JSON with this schema: {\"objects\":[{\"name\":\"object name\",\"use\":\"one short phrase\"}]}. Do not include explanations or additional fields.",
+    "neutral_1": "Take the perspective of an adult observer. Name exactly three objects that are plainly visible in the image, ordering them by relevance from your perspective. For each object, state one physically possible use justified by what is visible. Do not add unseen objects because of your role. Use an everyday function of a visible object when no role-specific function applies. Return only JSON with this schema: {\"objects\":[{\"name\":\"object name\",\"use\":\"one short phrase\"}]}. Do not include explanations or additional fields.",
+    "chef_0": "You are a professional chef. Identify exactly three clearly visible objects in this image, in order of relevance to your perspective. For each, give its name and one physically plausible use supported by its visible properties. Do not invent objects to suit your role. If a role-specific use is unavailable, give an ordinary use of a visible object. Return only JSON with this schema: {\"objects\":[{\"name\":\"object name\",\"use\":\"one short phrase\"}]}. Do not include explanations or additional fields.",
+    "chef_1": "Take the perspective of a professional chef. Name exactly three objects that are plainly visible in the image, ordering them by relevance from your perspective. For each object, state one physically possible use justified by what is visible. Do not add unseen objects because of your role. Use an everyday function of a visible object when no role-specific function applies. Return only JSON with this schema: {\"objects\":[{\"name\":\"object name\",\"use\":\"one short phrase\"}]}. Do not include explanations or additional fields.",
+    "security_0": "You are a security professional. Identify exactly three clearly visible objects in this image, in order of relevance to your perspective. For each, give its name and one physically plausible use supported by its visible properties. Do not invent objects to suit your role. If a role-specific use is unavailable, give an ordinary use of a visible object. Return only JSON with this schema: {\"objects\":[{\"name\":\"object name\",\"use\":\"one short phrase\"}]}. Do not include explanations or additional fields.",
+    "security_1": "Take the perspective of a security professional. Name exactly three objects that are plainly visible in the image, ordering them by relevance from your perspective. For each object, state one physically possible use justified by what is visible. Do not add unseen objects because of your role. Use an everyday function of a visible object when no role-specific function applies. Return only JSON with this schema: {\"objects\":[{\"name\":\"object name\",\"use\":\"one short phrase\"}]}. Do not include explanations or additional fields.",
+    "mobility_0": "You are a wheelchair user. Identify exactly three clearly visible objects in this image, in order of relevance to your perspective. For each, give its name and one physically plausible use supported by its visible properties. Do not invent objects to suit your role. If a role-specific use is unavailable, give an ordinary use of a visible object. Return only JSON with this schema: {\"objects\":[{\"name\":\"object name\",\"use\":\"one short phrase\"}]}. Do not include explanations or additional fields.",
+    "mobility_1": "Take the perspective of a wheelchair user. Name exactly three objects that are plainly visible in the image, ordering them by relevance from your perspective. For each object, state one physically possible use justified by what is visible. Do not add unseen objects because of your role. Use an everyday function of a visible object when no role-specific function applies. Return only JSON with this schema: {\"objects\":[{\"name\":\"object name\",\"use\":\"one short phrase\"}]}. Do not include explanations or additional fields."
+  },
+  "schedule": [
+    {
+      "image": "000000465718.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0000"
+    },
+    {
+      "image": "000000078170.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0001"
+    },
+    {
+      "image": "000000163117.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0002"
+    },
+    {
+      "image": "000000315219.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0003"
+    },
+    {
+      "image": "000000535094.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0004"
+    },
+    {
+      "image": "000000387098.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0005"
+    },
+    {
+      "image": "000000267169.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0006"
+    },
+    {
+      "image": "000000078170.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0007"
+    },
+    {
+      "image": "000000140987.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0008"
+    },
+    {
+      "image": "000000315219.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0009"
+    },
+    {
+      "image": "000000292060.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0010"
+    },
+    {
+      "image": "000000218997.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0011"
+    },
+    {
+      "image": "000000292060.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0012"
+    },
+    {
+      "image": "000000387098.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0013"
+    },
+    {
+      "image": "000000453341.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0014"
+    },
+    {
+      "image": "000000325306.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0015"
+    },
+    {
+      "image": "000000267169.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0016"
+    },
+    {
+      "image": "000000325306.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0017"
+    },
+    {
+      "image": "000000163117.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0018"
+    },
+    {
+      "image": "000000325306.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0019"
+    },
+    {
+      "image": "000000283717.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0020"
+    },
+    {
+      "image": "000000163682.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0021"
+    },
+    {
+      "image": "000000452515.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0022"
+    },
+    {
+      "image": "000000453341.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0023"
+    },
+    {
+      "image": "000000140987.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0024"
+    },
+    {
+      "image": "000000315219.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0025"
+    },
+    {
+      "image": "000000430973.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0026"
+    },
+    {
+      "image": "000000377239.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0027"
+    },
+    {
+      "image": "000000447789.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0028"
+    },
+    {
+      "image": "000000387098.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0029"
+    },
+    {
+      "image": "000000238013.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0030"
+    },
+    {
+      "image": "000000498286.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0031"
+    },
+    {
+      "image": "000000444142.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0032"
+    },
+    {
+      "image": "000000387098.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0033"
+    },
+    {
+      "image": "000000107087.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0034"
+    },
+    {
+      "image": "000000306136.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0035"
+    },
+    {
+      "image": "000000267169.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0036"
+    },
+    {
+      "image": "000000078170.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0037"
+    },
+    {
+      "image": "000000174231.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0038"
+    },
+    {
+      "image": "000000167898.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0039"
+    },
+    {
+      "image": "000000498286.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0040"
+    },
+    {
+      "image": "000000383339.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0041"
+    },
+    {
+      "image": "000000232649.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0042"
+    },
+    {
+      "image": "000000163117.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0043"
+    },
+    {
+      "image": "000000078170.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0044"
+    },
+    {
+      "image": "000000163682.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0045"
+    },
+    {
+      "image": "000000233567.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0046"
+    },
+    {
+      "image": "000000378099.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0047"
+    },
+    {
+      "image": "000000515077.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0048"
+    },
+    {
+      "image": "000000232649.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0049"
+    },
+    {
+      "image": "000000562121.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0050"
+    },
+    {
+      "image": "000000287291.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0051"
+    },
+    {
+      "image": "000000174231.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0052"
+    },
+    {
+      "image": "000000444142.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0053"
+    },
+    {
+      "image": "000000129416.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0054"
+    },
+    {
+      "image": "000000140987.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0055"
+    },
+    {
+      "image": "000000402118.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0056"
+    },
+    {
+      "image": "000000287291.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0057"
+    },
+    {
+      "image": "000000315219.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0058"
+    },
+    {
+      "image": "000000238013.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0059"
+    },
+    {
+      "image": "000000229659.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0060"
+    },
+    {
+      "image": "000000465718.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0061"
+    },
+    {
+      "image": "000000292060.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0062"
+    },
+    {
+      "image": "000000377239.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0063"
+    },
+    {
+      "image": "000000292060.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0064"
+    },
+    {
+      "image": "000000078170.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0065"
+    },
+    {
+      "image": "000000377239.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0066"
+    },
+    {
+      "image": "000000240767.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0067"
+    },
+    {
+      "image": "000000378099.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0068"
+    },
+    {
+      "image": "000000129416.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0069"
+    },
+    {
+      "image": "000000526197.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0070"
+    },
+    {
+      "image": "000000526197.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0071"
+    },
+    {
+      "image": "000000135410.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0072"
+    },
+    {
+      "image": "000000325306.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0073"
+    },
+    {
+      "image": "000000377239.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0074"
+    },
+    {
+      "image": "000000218997.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0075"
+    },
+    {
+      "image": "000000218997.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0076"
+    },
+    {
+      "image": "000000389109.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0077"
+    },
+    {
+      "image": "000000533206.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0078"
+    },
+    {
+      "image": "000000402118.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0079"
+    },
+    {
+      "image": "000000133778.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0080"
+    },
+    {
+      "image": "000000065798.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0081"
+    },
+    {
+      "image": "000000389109.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0082"
+    },
+    {
+      "image": "000000287291.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0083"
+    },
+    {
+      "image": "000000229659.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0084"
+    },
+    {
+      "image": "000000562121.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0085"
+    },
+    {
+      "image": "000000515077.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0086"
+    },
+    {
+      "image": "000000267169.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0087"
+    },
+    {
+      "image": "000000129416.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0088"
+    },
+    {
+      "image": "000000163117.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0089"
+    },
+    {
+      "image": "000000402346.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0090"
+    },
+    {
+      "image": "000000453341.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0091"
+    },
+    {
+      "image": "000000526197.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0092"
+    },
+    {
+      "image": "000000315219.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0093"
+    },
+    {
+      "image": "000000447789.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0094"
+    },
+    {
+      "image": "000000283717.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0095"
+    },
+    {
+      "image": "000000135410.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0096"
+    },
+    {
+      "image": "000000447789.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0097"
+    },
+    {
+      "image": "000000233567.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0098"
+    },
+    {
+      "image": "000000238013.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0099"
+    },
+    {
+      "image": "000000526197.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0100"
+    },
+    {
+      "image": "000000453341.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0101"
+    },
+    {
+      "image": "000000378099.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0102"
+    },
+    {
+      "image": "000000402118.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0103"
+    },
+    {
+      "image": "000000234366.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0104"
+    },
+    {
+      "image": "000000234366.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0105"
+    },
+    {
+      "image": "000000402346.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0106"
+    },
+    {
+      "image": "000000140987.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0107"
+    },
+    {
+      "image": "000000229659.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0108"
+    },
+    {
+      "image": "000000097337.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0109"
+    },
+    {
+      "image": "000000255718.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0110"
+    },
+    {
+      "image": "000000232649.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0111"
+    },
+    {
+      "image": "000000129416.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0112"
+    },
+    {
+      "image": "000000234366.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0113"
+    },
+    {
+      "image": "000000387098.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0114"
+    },
+    {
+      "image": "000000378099.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0115"
+    },
+    {
+      "image": "000000287291.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0116"
+    },
+    {
+      "image": "000000465718.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0117"
+    },
+    {
+      "image": "000000308587.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0118"
+    },
+    {
+      "image": "000000383339.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0119"
+    },
+    {
+      "image": "000000078170.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0120"
+    },
+    {
+      "image": "000000389451.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0121"
+    },
+    {
+      "image": "000000562121.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0122"
+    },
+    {
+      "image": "000000163117.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0123"
+    },
+    {
+      "image": "000000234366.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0124"
+    },
+    {
+      "image": "000000232649.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0125"
+    },
+    {
+      "image": "000000255718.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0126"
+    },
+    {
+      "image": "000000533206.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0127"
+    },
+    {
+      "image": "000000234366.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0128"
+    },
+    {
+      "image": "000000315219.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0129"
+    },
+    {
+      "image": "000000078170.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0130"
+    },
+    {
+      "image": "000000389451.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0131"
+    },
+    {
+      "image": "000000387098.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0132"
+    },
+    {
+      "image": "000000140987.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0133"
+    },
+    {
+      "image": "000000533206.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0134"
+    },
+    {
+      "image": "000000163682.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0135"
+    },
+    {
+      "image": "000000325306.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0136"
+    },
+    {
+      "image": "000000325306.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0137"
+    },
+    {
+      "image": "000000238013.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0138"
+    },
+    {
+      "image": "000000306136.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0139"
+    },
+    {
+      "image": "000000430973.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0140"
+    },
+    {
+      "image": "000000402346.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0141"
+    },
+    {
+      "image": "000000526197.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0142"
+    },
+    {
+      "image": "000000078170.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0143"
+    },
+    {
+      "image": "000000383339.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0144"
+    },
+    {
+      "image": "000000315219.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0145"
+    },
+    {
+      "image": "000000308587.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0146"
+    },
+    {
+      "image": "000000163682.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0147"
+    },
+    {
+      "image": "000000229659.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0148"
+    },
+    {
+      "image": "000000447789.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0149"
+    },
+    {
+      "image": "000000078170.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0150"
+    },
+    {
+      "image": "000000287291.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0151"
+    },
+    {
+      "image": "000000163117.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0152"
+    },
+    {
+      "image": "000000135410.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0153"
+    },
+    {
+      "image": "000000234366.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0154"
+    },
+    {
+      "image": "000000255718.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0155"
+    },
+    {
+      "image": "000000167898.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0156"
+    },
+    {
+      "image": "000000140987.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0157"
+    },
+    {
+      "image": "000000452515.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0158"
+    },
+    {
+      "image": "000000065798.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0159"
+    },
+    {
+      "image": "000000129416.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0160"
+    },
+    {
+      "image": "000000078170.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0161"
+    },
+    {
+      "image": "000000133778.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0162"
+    },
+    {
+      "image": "000000218997.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0163"
+    },
+    {
+      "image": "000000378099.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0164"
+    },
+    {
+      "image": "000000097337.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0165"
+    },
+    {
+      "image": "000000453341.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0166"
+    },
+    {
+      "image": "000000389109.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0167"
+    },
+    {
+      "image": "000000533206.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0168"
+    },
+    {
+      "image": "000000378099.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0169"
+    },
+    {
+      "image": "000000430973.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0170"
+    },
+    {
+      "image": "000000453341.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0171"
+    },
+    {
+      "image": "000000533206.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0172"
+    },
+    {
+      "image": "000000430973.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0173"
+    },
+    {
+      "image": "000000267169.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0174"
+    },
+    {
+      "image": "000000232649.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0175"
+    },
+    {
+      "image": "000000163682.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0176"
+    },
+    {
+      "image": "000000308587.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0177"
+    },
+    {
+      "image": "000000402346.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0178"
+    },
+    {
+      "image": "000000097337.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0179"
+    },
+    {
+      "image": "000000267169.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0180"
+    },
+    {
+      "image": "000000129416.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0181"
+    },
+    {
+      "image": "000000562121.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0182"
+    },
+    {
+      "image": "000000498286.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0183"
+    },
+    {
+      "image": "000000140987.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0184"
+    },
+    {
+      "image": "000000535094.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0185"
+    },
+    {
+      "image": "000000287291.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0186"
+    },
+    {
+      "image": "000000287291.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0187"
+    },
+    {
+      "image": "000000308587.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0188"
+    },
+    {
+      "image": "000000287291.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0189"
+    },
+    {
+      "image": "000000163682.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0190"
+    },
+    {
+      "image": "000000378099.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0191"
+    },
+    {
+      "image": "000000107087.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0192"
+    },
+    {
+      "image": "000000315219.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0193"
+    },
+    {
+      "image": "000000562121.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0194"
+    },
+    {
+      "image": "000000229659.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0195"
+    },
+    {
+      "image": "000000402118.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0196"
+    },
+    {
+      "image": "000000389109.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0197"
+    },
+    {
+      "image": "000000255718.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0198"
+    },
+    {
+      "image": "000000107087.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0199"
+    },
+    {
+      "image": "000000135410.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0200"
+    },
+    {
+      "image": "000000232649.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0201"
+    },
+    {
+      "image": "000000078170.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0202"
+    },
+    {
+      "image": "000000097337.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0203"
+    },
+    {
+      "image": "000000255718.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0204"
+    },
+    {
+      "image": "000000233567.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0205"
+    },
+    {
+      "image": "000000402346.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0206"
+    },
+    {
+      "image": "000000129416.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0207"
+    },
+    {
+      "image": "000000453341.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0208"
+    },
+    {
+      "image": "000000378099.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0209"
+    },
+    {
+      "image": "000000167898.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0210"
+    },
+    {
+      "image": "000000135410.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0211"
+    },
+    {
+      "image": "000000292060.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0212"
+    },
+    {
+      "image": "000000452515.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0213"
+    },
+    {
+      "image": "000000283717.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0214"
+    },
+    {
+      "image": "000000465718.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0215"
+    },
+    {
+      "image": "000000453341.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0216"
+    },
+    {
+      "image": "000000163117.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0217"
+    },
+    {
+      "image": "000000515077.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0218"
+    },
+    {
+      "image": "000000097337.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0219"
+    },
+    {
+      "image": "000000287291.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0220"
+    },
+    {
+      "image": "000000389109.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0221"
+    },
+    {
+      "image": "000000526197.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0222"
+    },
+    {
+      "image": "000000140987.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0223"
+    },
+    {
+      "image": "000000140987.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0224"
+    },
+    {
+      "image": "000000430973.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0225"
+    },
+    {
+      "image": "000000174231.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0226"
+    },
+    {
+      "image": "000000163682.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0227"
+    },
+    {
+      "image": "000000234366.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0228"
+    },
+    {
+      "image": "000000402118.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0229"
+    },
+    {
+      "image": "000000135410.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0230"
+    },
+    {
+      "image": "000000135410.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0231"
+    },
+    {
+      "image": "000000163117.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0232"
+    },
+    {
+      "image": "000000452515.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0233"
+    },
+    {
+      "image": "000000383339.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0234"
+    },
+    {
+      "image": "000000065798.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0235"
+    },
+    {
+      "image": "000000255718.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0236"
+    },
+    {
+      "image": "000000167898.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0237"
+    },
+    {
+      "image": "000000097337.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0238"
+    },
+    {
+      "image": "000000287291.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0239"
+    },
+    {
+      "image": "000000135410.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0240"
+    },
+    {
+      "image": "000000325306.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0241"
+    },
+    {
+      "image": "000000562121.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0242"
+    },
+    {
+      "image": "000000163682.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0243"
+    },
+    {
+      "image": "000000533206.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0244"
+    },
+    {
+      "image": "000000389451.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0245"
+    },
+    {
+      "image": "000000233567.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0246"
+    },
+    {
+      "image": "000000174231.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0247"
+    },
+    {
+      "image": "000000453341.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0248"
+    },
+    {
+      "image": "000000240767.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0249"
+    },
+    {
+      "image": "000000389451.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0250"
+    },
+    {
+      "image": "000000447789.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0251"
+    },
+    {
+      "image": "000000234366.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0252"
+    },
+    {
+      "image": "000000107087.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0253"
+    },
+    {
+      "image": "000000308587.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0254"
+    },
+    {
+      "image": "000000234366.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0255"
+    },
+    {
+      "image": "000000465718.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0256"
+    },
+    {
+      "image": "000000515077.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0257"
+    },
+    {
+      "image": "000000174231.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0258"
+    },
+    {
+      "image": "000000378099.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0259"
+    },
+    {
+      "image": "000000287291.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0260"
+    },
+    {
+      "image": "000000129416.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0261"
+    },
+    {
+      "image": "000000533206.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0262"
+    },
+    {
+      "image": "000000078170.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0263"
+    },
+    {
+      "image": "000000267169.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0264"
+    },
+    {
+      "image": "000000383339.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0265"
+    },
+    {
+      "image": "000000526197.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0266"
+    },
+    {
+      "image": "000000389451.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0267"
+    },
+    {
+      "image": "000000267169.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0268"
+    },
+    {
+      "image": "000000515077.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0269"
+    },
+    {
+      "image": "000000533206.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0270"
+    },
+    {
+      "image": "000000097337.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0271"
+    },
+    {
+      "image": "000000308587.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0272"
+    },
+    {
+      "image": "000000234366.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0273"
+    },
+    {
+      "image": "000000267169.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0274"
+    },
+    {
+      "image": "000000233567.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0275"
+    },
+    {
+      "image": "000000383339.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0276"
+    },
+    {
+      "image": "000000065798.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0277"
+    },
+    {
+      "image": "000000232649.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0278"
+    },
+    {
+      "image": "000000240767.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0279"
+    },
+    {
+      "image": "000000229659.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0280"
+    },
+    {
+      "image": "000000163682.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0281"
+    },
+    {
+      "image": "000000283717.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0282"
+    },
+    {
+      "image": "000000402118.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0283"
+    },
+    {
+      "image": "000000447789.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0284"
+    },
+    {
+      "image": "000000389451.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0285"
+    },
+    {
+      "image": "000000387098.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0286"
+    },
+    {
+      "image": "000000315219.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0287"
+    },
+    {
+      "image": "000000325306.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0288"
+    },
+    {
+      "image": "000000447789.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0289"
+    },
+    {
+      "image": "000000315219.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0290"
+    },
+    {
+      "image": "000000389109.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0291"
+    },
+    {
+      "image": "000000292060.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0292"
+    },
+    {
+      "image": "000000292060.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0293"
+    },
+    {
+      "image": "000000287291.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0294"
+    },
+    {
+      "image": "000000240767.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0295"
+    },
+    {
+      "image": "000000465718.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0296"
+    },
+    {
+      "image": "000000229659.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0297"
+    },
+    {
+      "image": "000000283717.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0298"
+    },
+    {
+      "image": "000000097337.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0299"
+    },
+    {
+      "image": "000000306136.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0300"
+    },
+    {
+      "image": "000000377239.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0301"
+    },
+    {
+      "image": "000000133778.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0302"
+    },
+    {
+      "image": "000000133778.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0303"
+    },
+    {
+      "image": "000000452515.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0304"
+    },
+    {
+      "image": "000000515077.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0305"
+    },
+    {
+      "image": "000000533206.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0306"
+    },
+    {
+      "image": "000000444142.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0307"
+    },
+    {
+      "image": "000000229659.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0308"
+    },
+    {
+      "image": "000000430973.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0309"
+    },
+    {
+      "image": "000000167898.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0310"
+    },
+    {
+      "image": "000000283717.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0311"
+    },
+    {
+      "image": "000000174231.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0312"
+    },
+    {
+      "image": "000000240767.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0313"
+    },
+    {
+      "image": "000000389109.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0314"
+    },
+    {
+      "image": "000000535094.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0315"
+    },
+    {
+      "image": "000000306136.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0316"
+    },
+    {
+      "image": "000000135410.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0317"
+    },
+    {
+      "image": "000000238013.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0318"
+    },
+    {
+      "image": "000000498286.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0319"
+    },
+    {
+      "image": "000000308587.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0320"
+    },
+    {
+      "image": "000000402118.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0321"
+    },
+    {
+      "image": "000000378099.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0322"
+    },
+    {
+      "image": "000000535094.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0323"
+    },
+    {
+      "image": "000000447789.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0324"
+    },
+    {
+      "image": "000000133778.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0325"
+    },
+    {
+      "image": "000000389451.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0326"
+    },
+    {
+      "image": "000000389451.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0327"
+    },
+    {
+      "image": "000000562121.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0328"
+    },
+    {
+      "image": "000000535094.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0329"
+    },
+    {
+      "image": "000000325306.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0330"
+    },
+    {
+      "image": "000000444142.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0331"
+    },
+    {
+      "image": "000000255718.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0332"
+    },
+    {
+      "image": "000000167898.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0333"
+    },
+    {
+      "image": "000000163117.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0334"
+    },
+    {
+      "image": "000000233567.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0335"
+    },
+    {
+      "image": "000000315219.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0336"
+    },
+    {
+      "image": "000000402346.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0337"
+    },
+    {
+      "image": "000000174231.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0338"
+    },
+    {
+      "image": "000000133778.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0339"
+    },
+    {
+      "image": "000000218997.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0340"
+    },
+    {
+      "image": "000000163682.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0341"
+    },
+    {
+      "image": "000000444142.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0342"
+    },
+    {
+      "image": "000000292060.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0343"
+    },
+    {
+      "image": "000000140987.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0344"
+    },
+    {
+      "image": "000000218997.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0345"
+    },
+    {
+      "image": "000000238013.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0346"
+    },
+    {
+      "image": "000000133778.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0347"
+    },
+    {
+      "image": "000000402346.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0348"
+    },
+    {
+      "image": "000000255718.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0349"
+    },
+    {
+      "image": "000000167898.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0350"
+    },
+    {
+      "image": "000000389109.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0351"
+    },
+    {
+      "image": "000000308587.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0352"
+    },
+    {
+      "image": "000000174231.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0353"
+    },
+    {
+      "image": "000000453341.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0354"
+    },
+    {
+      "image": "000000402118.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0355"
+    },
+    {
+      "image": "000000163117.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0356"
+    },
+    {
+      "image": "000000444142.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0357"
+    },
+    {
+      "image": "000000535094.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0358"
+    },
+    {
+      "image": "000000078170.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0359"
+    },
+    {
+      "image": "000000535094.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0360"
+    },
+    {
+      "image": "000000387098.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0361"
+    },
+    {
+      "image": "000000238013.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0362"
+    },
+    {
+      "image": "000000078170.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0363"
+    },
+    {
+      "image": "000000315219.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0364"
+    },
+    {
+      "image": "000000287291.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0365"
+    },
+    {
+      "image": "000000389109.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0366"
+    },
+    {
+      "image": "000000283717.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0367"
+    },
+    {
+      "image": "000000107087.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0368"
+    },
+    {
+      "image": "000000315219.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0369"
+    },
+    {
+      "image": "000000515077.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0370"
+    },
+    {
+      "image": "000000465718.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0371"
+    },
+    {
+      "image": "000000306136.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0372"
+    },
+    {
+      "image": "000000452515.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0373"
+    },
+    {
+      "image": "000000430973.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0374"
+    },
+    {
+      "image": "000000135410.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0375"
+    },
+    {
+      "image": "000000233567.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0376"
+    },
+    {
+      "image": "000000240767.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0377"
+    },
+    {
+      "image": "000000167898.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0378"
+    },
+    {
+      "image": "000000238013.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0379"
+    },
+    {
+      "image": "000000389451.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0380"
+    },
+    {
+      "image": "000000444142.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0381"
+    },
+    {
+      "image": "000000453341.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0382"
+    },
+    {
+      "image": "000000402346.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0383"
+    },
+    {
+      "image": "000000135410.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0384"
+    },
+    {
+      "image": "000000402118.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0385"
+    },
+    {
+      "image": "000000107087.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0386"
+    },
+    {
+      "image": "000000267169.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0387"
+    },
+    {
+      "image": "000000234366.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0388"
+    },
+    {
+      "image": "000000378099.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0389"
+    },
+    {
+      "image": "000000287291.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0390"
+    },
+    {
+      "image": "000000306136.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0391"
+    },
+    {
+      "image": "000000308587.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0392"
+    },
+    {
+      "image": "000000402346.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0393"
+    },
+    {
+      "image": "000000453341.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0394"
+    },
+    {
+      "image": "000000232649.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0395"
+    },
+    {
+      "image": "000000097337.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0396"
+    },
+    {
+      "image": "000000498286.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0397"
+    },
+    {
+      "image": "000000402118.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0398"
+    },
+    {
+      "image": "000000234366.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0399"
+    },
+    {
+      "image": "000000229659.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0400"
+    },
+    {
+      "image": "000000447789.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0401"
+    },
+    {
+      "image": "000000135410.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0402"
+    },
+    {
+      "image": "000000283717.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0403"
+    },
+    {
+      "image": "000000562121.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0404"
+    },
+    {
+      "image": "000000107087.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0405"
+    },
+    {
+      "image": "000000232649.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0406"
+    },
+    {
+      "image": "000000498286.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0407"
+    },
+    {
+      "image": "000000283717.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0408"
+    },
+    {
+      "image": "000000377239.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0409"
+    },
+    {
+      "image": "000000218997.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0410"
+    },
+    {
+      "image": "000000389109.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0411"
+    },
+    {
+      "image": "000000377239.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0412"
+    },
+    {
+      "image": "000000389451.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0413"
+    },
+    {
+      "image": "000000306136.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0414"
+    },
+    {
+      "image": "000000526197.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0415"
+    },
+    {
+      "image": "000000306136.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0416"
+    },
+    {
+      "image": "000000065798.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0417"
+    },
+    {
+      "image": "000000267169.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0418"
+    },
+    {
+      "image": "000000065798.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0419"
+    },
+    {
+      "image": "000000533206.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0420"
+    },
+    {
+      "image": "000000533206.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0421"
+    },
+    {
+      "image": "000000562121.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0422"
+    },
+    {
+      "image": "000000465718.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0423"
+    },
+    {
+      "image": "000000389451.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0424"
+    },
+    {
+      "image": "000000107087.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0425"
+    },
+    {
+      "image": "000000308587.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0426"
+    },
+    {
+      "image": "000000140987.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0427"
+    },
+    {
+      "image": "000000498286.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0428"
+    },
+    {
+      "image": "000000465718.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0429"
+    },
+    {
+      "image": "000000465718.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0430"
+    },
+    {
+      "image": "000000402118.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0431"
+    },
+    {
+      "image": "000000562121.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0432"
+    },
+    {
+      "image": "000000389451.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0433"
+    },
+    {
+      "image": "000000465718.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0434"
+    },
+    {
+      "image": "000000444142.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0435"
+    },
+    {
+      "image": "000000430973.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0436"
+    },
+    {
+      "image": "000000129416.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0437"
+    },
+    {
+      "image": "000000238013.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0438"
+    },
+    {
+      "image": "000000308587.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0439"
+    },
+    {
+      "image": "000000453341.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0440"
+    },
+    {
+      "image": "000000387098.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0441"
+    },
+    {
+      "image": "000000163682.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0442"
+    },
+    {
+      "image": "000000065798.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0443"
+    },
+    {
+      "image": "000000238013.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0444"
+    },
+    {
+      "image": "000000526197.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0445"
+    },
+    {
+      "image": "000000240767.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0446"
+    },
+    {
+      "image": "000000133778.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0447"
+    },
+    {
+      "image": "000000526197.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0448"
+    },
+    {
+      "image": "000000097337.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0449"
+    },
+    {
+      "image": "000000562121.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0450"
+    },
+    {
+      "image": "000000535094.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0451"
+    },
+    {
+      "image": "000000232649.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0452"
+    },
+    {
+      "image": "000000452515.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0453"
+    },
+    {
+      "image": "000000306136.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0454"
+    },
+    {
+      "image": "000000444142.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0455"
+    },
+    {
+      "image": "000000133778.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0456"
+    },
+    {
+      "image": "000000498286.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0457"
+    },
+    {
+      "image": "000000267169.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0458"
+    },
+    {
+      "image": "000000163682.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0459"
+    },
+    {
+      "image": "000000452515.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0460"
+    },
+    {
+      "image": "000000535094.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0461"
+    },
+    {
+      "image": "000000233567.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0462"
+    },
+    {
+      "image": "000000255718.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0463"
+    },
+    {
+      "image": "000000377239.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0464"
+    },
+    {
+      "image": "000000325306.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0465"
+    },
+    {
+      "image": "000000535094.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0466"
+    },
+    {
+      "image": "000000097337.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0467"
+    },
+    {
+      "image": "000000430973.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0468"
+    },
+    {
+      "image": "000000292060.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0469"
+    },
+    {
+      "image": "000000133778.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0470"
+    },
+    {
+      "image": "000000140987.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0471"
+    },
+    {
+      "image": "000000447789.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0472"
+    },
+    {
+      "image": "000000107087.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0473"
+    },
+    {
+      "image": "000000133778.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0474"
+    },
+    {
+      "image": "000000465718.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0475"
+    },
+    {
+      "image": "000000174231.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0476"
+    },
+    {
+      "image": "000000129416.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0477"
+    },
+    {
+      "image": "000000444142.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0478"
+    },
+    {
+      "image": "000000283717.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0479"
+    },
+    {
+      "image": "000000383339.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0480"
+    },
+    {
+      "image": "000000430973.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0481"
+    },
+    {
+      "image": "000000167898.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0482"
+    },
+    {
+      "image": "000000078170.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0483"
+    },
+    {
+      "image": "000000167898.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0484"
+    },
+    {
+      "image": "000000107087.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0485"
+    },
+    {
+      "image": "000000402346.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0486"
+    },
+    {
+      "image": "000000389451.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0487"
+    },
+    {
+      "image": "000000452515.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0488"
+    },
+    {
+      "image": "000000377239.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0489"
+    },
+    {
+      "image": "000000430973.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0490"
+    },
+    {
+      "image": "000000267169.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0491"
+    },
+    {
+      "image": "000000129416.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0492"
+    },
+    {
+      "image": "000000315219.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0493"
+    },
+    {
+      "image": "000000453341.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0494"
+    },
+    {
+      "image": "000000515077.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0495"
+    },
+    {
+      "image": "000000163682.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0496"
+    },
+    {
+      "image": "000000240767.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0497"
+    },
+    {
+      "image": "000000292060.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0498"
+    },
+    {
+      "image": "000000402346.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0499"
+    },
+    {
+      "image": "000000292060.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0500"
+    },
+    {
+      "image": "000000377239.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0501"
+    },
+    {
+      "image": "000000233567.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0502"
+    },
+    {
+      "image": "000000325306.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0503"
+    },
+    {
+      "image": "000000267169.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0504"
+    },
+    {
+      "image": "000000283717.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0505"
+    },
+    {
+      "image": "000000447789.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0506"
+    },
+    {
+      "image": "000000452515.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0507"
+    },
+    {
+      "image": "000000325306.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0508"
+    },
+    {
+      "image": "000000498286.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0509"
+    },
+    {
+      "image": "000000533206.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0510"
+    },
+    {
+      "image": "000000097337.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0511"
+    },
+    {
+      "image": "000000444142.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0512"
+    },
+    {
+      "image": "000000498286.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0513"
+    },
+    {
+      "image": "000000167898.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0514"
+    },
+    {
+      "image": "000000174231.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0515"
+    },
+    {
+      "image": "000000218997.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0516"
+    },
+    {
+      "image": "000000308587.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0517"
+    },
+    {
+      "image": "000000065798.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0518"
+    },
+    {
+      "image": "000000535094.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0519"
+    },
+    {
+      "image": "000000308587.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0520"
+    },
+    {
+      "image": "000000325306.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0521"
+    },
+    {
+      "image": "000000163117.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0522"
+    },
+    {
+      "image": "000000218997.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0523"
+    },
+    {
+      "image": "000000240767.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0524"
+    },
+    {
+      "image": "000000234366.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0525"
+    },
+    {
+      "image": "000000240767.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0526"
+    },
+    {
+      "image": "000000453341.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0527"
+    },
+    {
+      "image": "000000218997.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0528"
+    },
+    {
+      "image": "000000135410.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0529"
+    },
+    {
+      "image": "000000255718.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0530"
+    },
+    {
+      "image": "000000526197.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0531"
+    },
+    {
+      "image": "000000255718.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0532"
+    },
+    {
+      "image": "000000240767.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0533"
+    },
+    {
+      "image": "000000232649.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0534"
+    },
+    {
+      "image": "000000240767.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0535"
+    },
+    {
+      "image": "000000562121.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0536"
+    },
+    {
+      "image": "000000255718.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0537"
+    },
+    {
+      "image": "000000240767.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0538"
+    },
+    {
+      "image": "000000283717.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0539"
+    },
+    {
+      "image": "000000383339.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0540"
+    },
+    {
+      "image": "000000135410.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0541"
+    },
+    {
+      "image": "000000535094.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0542"
+    },
+    {
+      "image": "000000283717.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0543"
+    },
+    {
+      "image": "000000447789.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0544"
+    },
+    {
+      "image": "000000389451.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0545"
+    },
+    {
+      "image": "000000402118.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0546"
+    },
+    {
+      "image": "000000452515.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0547"
+    },
+    {
+      "image": "000000465718.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0548"
+    },
+    {
+      "image": "000000267169.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0549"
+    },
+    {
+      "image": "000000498286.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0550"
+    },
+    {
+      "image": "000000308587.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0551"
+    },
+    {
+      "image": "000000526197.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0552"
+    },
+    {
+      "image": "000000402346.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0553"
+    },
+    {
+      "image": "000000283717.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0554"
+    },
+    {
+      "image": "000000430973.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0555"
+    },
+    {
+      "image": "000000444142.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0556"
+    },
+    {
+      "image": "000000133778.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0557"
+    },
+    {
+      "image": "000000526197.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0558"
+    },
+    {
+      "image": "000000535094.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0559"
+    },
+    {
+      "image": "000000515077.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0560"
+    },
+    {
+      "image": "000000377239.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0561"
+    },
+    {
+      "image": "000000129416.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0562"
+    },
+    {
+      "image": "000000065798.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0563"
+    },
+    {
+      "image": "000000389109.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0564"
+    },
+    {
+      "image": "000000229659.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0565"
+    },
+    {
+      "image": "000000167898.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0566"
+    },
+    {
+      "image": "000000315219.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0567"
+    },
+    {
+      "image": "000000498286.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0568"
+    },
+    {
+      "image": "000000218997.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0569"
+    },
+    {
+      "image": "000000078170.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0570"
+    },
+    {
+      "image": "000000233567.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0571"
+    },
+    {
+      "image": "000000229659.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0572"
+    },
+    {
+      "image": "000000234366.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0573"
+    },
+    {
+      "image": "000000430973.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0574"
+    },
+    {
+      "image": "000000533206.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0575"
+    },
+    {
+      "image": "000000430973.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0576"
+    },
+    {
+      "image": "000000562121.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0577"
+    },
+    {
+      "image": "000000065798.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0578"
+    },
+    {
+      "image": "000000430973.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0579"
+    },
+    {
+      "image": "000000234366.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0580"
+    },
+    {
+      "image": "000000444142.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0581"
+    },
+    {
+      "image": "000000515077.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0582"
+    },
+    {
+      "image": "000000387098.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0583"
+    },
+    {
+      "image": "000000306136.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0584"
+    },
+    {
+      "image": "000000535094.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0585"
+    },
+    {
+      "image": "000000129416.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0586"
+    },
+    {
+      "image": "000000383339.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0587"
+    },
+    {
+      "image": "000000452515.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0588"
+    },
+    {
+      "image": "000000306136.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0589"
+    },
+    {
+      "image": "000000378099.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0590"
+    },
+    {
+      "image": "000000255718.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0591"
+    },
+    {
+      "image": "000000377239.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0592"
+    },
+    {
+      "image": "000000107087.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0593"
+    },
+    {
+      "image": "000000562121.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0594"
+    },
+    {
+      "image": "000000402346.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0595"
+    },
+    {
+      "image": "000000287291.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0596"
+    },
+    {
+      "image": "000000174231.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0597"
+    },
+    {
+      "image": "000000444142.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0598"
+    },
+    {
+      "image": "000000229659.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0599"
+    },
+    {
+      "image": "000000498286.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0600"
+    },
+    {
+      "image": "000000232649.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0601"
+    },
+    {
+      "image": "000000387098.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0602"
+    },
+    {
+      "image": "000000515077.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0603"
+    },
+    {
+      "image": "000000447789.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0604"
+    },
+    {
+      "image": "000000129416.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0605"
+    },
+    {
+      "image": "000000097337.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0606"
+    },
+    {
+      "image": "000000287291.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0607"
+    },
+    {
+      "image": "000000174231.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0608"
+    },
+    {
+      "image": "000000306136.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0609"
+    },
+    {
+      "image": "000000325306.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0610"
+    },
+    {
+      "image": "000000232649.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0611"
+    },
+    {
+      "image": "000000378099.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0612"
+    },
+    {
+      "image": "000000229659.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0613"
+    },
+    {
+      "image": "000000097337.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0614"
+    },
+    {
+      "image": "000000238013.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0615"
+    },
+    {
+      "image": "000000306136.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0616"
+    },
+    {
+      "image": "000000515077.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0617"
+    },
+    {
+      "image": "000000174231.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0618"
+    },
+    {
+      "image": "000000447789.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0619"
+    },
+    {
+      "image": "000000306136.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0620"
+    },
+    {
+      "image": "000000452515.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0621"
+    },
+    {
+      "image": "000000498286.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0622"
+    },
+    {
+      "image": "000000533206.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0623"
+    },
+    {
+      "image": "000000378099.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0624"
+    },
+    {
+      "image": "000000140987.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0625"
+    },
+    {
+      "image": "000000107087.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0626"
+    },
+    {
+      "image": "000000133778.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0627"
+    },
+    {
+      "image": "000000163682.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0628"
+    },
+    {
+      "image": "000000163117.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0629"
+    },
+    {
+      "image": "000000444142.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0630"
+    },
+    {
+      "image": "000000238013.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0631"
+    },
+    {
+      "image": "000000378099.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0632"
+    },
+    {
+      "image": "000000383339.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0633"
+    },
+    {
+      "image": "000000526197.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0634"
+    },
+    {
+      "image": "000000163682.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0635"
+    },
+    {
+      "image": "000000389451.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0636"
+    },
+    {
+      "image": "000000129416.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0637"
+    },
+    {
+      "image": "000000377239.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0638"
+    },
+    {
+      "image": "000000255718.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0639"
+    },
+    {
+      "image": "000000292060.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0640"
+    },
+    {
+      "image": "000000383339.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0641"
+    },
+    {
+      "image": "000000315219.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0642"
+    },
+    {
+      "image": "000000218997.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0643"
+    },
+    {
+      "image": "000000163682.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0644"
+    },
+    {
+      "image": "000000498286.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0645"
+    },
+    {
+      "image": "000000163117.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0646"
+    },
+    {
+      "image": "000000383339.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0647"
+    },
+    {
+      "image": "000000465718.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0648"
+    },
+    {
+      "image": "000000218997.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0649"
+    },
+    {
+      "image": "000000535094.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0650"
+    },
+    {
+      "image": "000000167898.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0651"
+    },
+    {
+      "image": "000000135410.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0652"
+    },
+    {
+      "image": "000000402346.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0653"
+    },
+    {
+      "image": "000000238013.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0654"
+    },
+    {
+      "image": "000000232649.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0655"
+    },
+    {
+      "image": "000000515077.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0656"
+    },
+    {
+      "image": "000000453341.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0657"
+    },
+    {
+      "image": "000000140987.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0658"
+    },
+    {
+      "image": "000000238013.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0659"
+    },
+    {
+      "image": "000000218997.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0660"
+    },
+    {
+      "image": "000000387098.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0661"
+    },
+    {
+      "image": "000000377239.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0662"
+    },
+    {
+      "image": "000000107087.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0663"
+    },
+    {
+      "image": "000000133778.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0664"
+    },
+    {
+      "image": "000000389109.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0665"
+    },
+    {
+      "image": "000000389451.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0666"
+    },
+    {
+      "image": "000000452515.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0667"
+    },
+    {
+      "image": "000000238013.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0668"
+    },
+    {
+      "image": "000000308587.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0669"
+    },
+    {
+      "image": "000000306136.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0670"
+    },
+    {
+      "image": "000000065798.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0671"
+    },
+    {
+      "image": "000000283717.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0672"
+    },
+    {
+      "image": "000000167898.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0673"
+    },
+    {
+      "image": "000000387098.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0674"
+    },
+    {
+      "image": "000000308587.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0675"
+    },
+    {
+      "image": "000000065798.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0676"
+    },
+    {
+      "image": "000000389109.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0677"
+    },
+    {
+      "image": "000000163117.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0678"
+    },
+    {
+      "image": "000000229659.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0679"
+    },
+    {
+      "image": "000000233567.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0680"
+    },
+    {
+      "image": "000000292060.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0681"
+    },
+    {
+      "image": "000000447789.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0682"
+    },
+    {
+      "image": "000000526197.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0683"
+    },
+    {
+      "image": "000000234366.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0684"
+    },
+    {
+      "image": "000000232649.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0685"
+    },
+    {
+      "image": "000000383339.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0686"
+    },
+    {
+      "image": "000000402346.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0687"
+    },
+    {
+      "image": "000000233567.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0688"
+    },
+    {
+      "image": "000000255718.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0689"
+    },
+    {
+      "image": "000000498286.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0690"
+    },
+    {
+      "image": "000000229659.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0691"
+    },
+    {
+      "image": "000000402118.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0692"
+    },
+    {
+      "image": "000000389109.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0693"
+    },
+    {
+      "image": "000000238013.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0694"
+    },
+    {
+      "image": "000000174231.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0695"
+    },
+    {
+      "image": "000000526197.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0696"
+    },
+    {
+      "image": "000000229659.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0697"
+    },
+    {
+      "image": "000000515077.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0698"
+    },
+    {
+      "image": "000000283717.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0699"
+    },
+    {
+      "image": "000000465718.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0700"
+    },
+    {
+      "image": "000000240767.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0701"
+    },
+    {
+      "image": "000000267169.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0702"
+    },
+    {
+      "image": "000000232649.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0703"
+    },
+    {
+      "image": "000000135410.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0704"
+    },
+    {
+      "image": "000000107087.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0705"
+    },
+    {
+      "image": "000000387098.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0706"
+    },
+    {
+      "image": "000000292060.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0707"
+    },
+    {
+      "image": "000000452515.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0708"
+    },
+    {
+      "image": "000000533206.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0709"
+    },
+    {
+      "image": "000000402118.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0710"
+    },
+    {
+      "image": "000000325306.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0711"
+    },
+    {
+      "image": "000000140987.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0712"
+    },
+    {
+      "image": "000000383339.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0713"
+    },
+    {
+      "image": "000000389109.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0714"
+    },
+    {
+      "image": "000000163117.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0715"
+    },
+    {
+      "image": "000000174231.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "chef_1",
+      "run_id": "0716"
+    },
+    {
+      "image": "000000097337.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0717"
+    },
+    {
+      "image": "000000133778.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0718"
+    },
+    {
+      "image": "000000163117.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0719"
+    },
+    {
+      "image": "000000097337.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0720"
+    },
+    {
+      "image": "000000065798.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0721"
+    },
+    {
+      "image": "000000383339.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0722"
+    },
+    {
+      "image": "000000402346.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0723"
+    },
+    {
+      "image": "000000452515.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0724"
+    },
+    {
+      "image": "000000447789.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0725"
+    },
+    {
+      "image": "000000255718.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0726"
+    },
+    {
+      "image": "000000378099.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0727"
+    },
+    {
+      "image": "000000107087.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0728"
+    },
+    {
+      "image": "000000174231.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "neutral_0",
+      "run_id": "0729"
+    },
+    {
+      "image": "000000107087.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0730"
+    },
+    {
+      "image": "000000233567.jpg",
+      "persona": "chef",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "chef_1",
+      "run_id": "0731"
+    },
+    {
+      "image": "000000465718.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0732"
+    },
+    {
+      "image": "000000218997.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0733"
+    },
+    {
+      "image": "000000387098.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0734"
+    },
+    {
+      "image": "000000402118.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0735"
+    },
+    {
+      "image": "000000562121.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0736"
+    },
+    {
+      "image": "000000233567.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0737"
+    },
+    {
+      "image": "000000389109.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0738"
+    },
+    {
+      "image": "000000292060.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0739"
+    },
+    {
+      "image": "000000233567.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0740"
+    },
+    {
+      "image": "000000430973.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0741"
+    },
+    {
+      "image": "000000377239.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0742"
+    },
+    {
+      "image": "000000387098.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0743"
+    },
+    {
+      "image": "000000065798.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0744"
+    },
+    {
+      "image": "000000535094.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "mobility_1",
+      "run_id": "0745"
+    },
+    {
+      "image": "000000325306.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0746"
+    },
+    {
+      "image": "000000292060.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0747"
+    },
+    {
+      "image": "000000240767.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0748"
+    },
+    {
+      "image": "000000167898.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0749"
+    },
+    {
+      "image": "000000218997.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0750"
+    },
+    {
+      "image": "000000377239.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0751"
+    },
+    {
+      "image": "000000306136.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "security_0",
+      "run_id": "0752"
+    },
+    {
+      "image": "000000562121.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "security_1",
+      "run_id": "0753"
+    },
+    {
+      "image": "000000444142.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0754"
+    },
+    {
+      "image": "000000515077.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "chef_0",
+      "run_id": "0755"
+    },
+    {
+      "image": "000000233567.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0756"
+    },
+    {
+      "image": "000000065798.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 11,
+      "prompt_id": "neutral_1",
+      "run_id": "0757"
+    },
+    {
+      "image": "000000533206.jpg",
+      "persona": "neutral",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "neutral_0",
+      "run_id": "0758"
+    },
+    {
+      "image": "000000515077.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0759"
+    },
+    {
+      "image": "000000240767.jpg",
+      "persona": "security",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "security_0",
+      "run_id": "0760"
+    },
+    {
+      "image": "000000065798.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 29,
+      "prompt_id": "mobility_0",
+      "run_id": "0761"
+    },
+    {
+      "image": "000000383339.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0762"
+    },
+    {
+      "image": "000000140987.jpg",
+      "persona": "mobility",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "mobility_1",
+      "run_id": "0763"
+    },
+    {
+      "image": "000000402118.jpg",
+      "persona": "security",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "security_1",
+      "run_id": "0764"
+    },
+    {
+      "image": "000000167898.jpg",
+      "persona": "chef",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "chef_0",
+      "run_id": "0765"
+    },
+    {
+      "image": "000000129416.jpg",
+      "persona": "neutral",
+      "wording": 1,
+      "seed": 29,
+      "prompt_id": "neutral_1",
+      "run_id": "0766"
+    },
+    {
+      "image": "000000133778.jpg",
+      "persona": "mobility",
+      "wording": 0,
+      "seed": 11,
+      "prompt_id": "mobility_0",
+      "run_id": "0767"
+    }
+  ],
+  "images": [
+    "000000065798.jpg",
+    "000000078170.jpg",
+    "000000097337.jpg",
+    "000000107087.jpg",
+    "000000129416.jpg",
+    "000000133778.jpg",
+    "000000135410.jpg",
+    "000000140987.jpg",
+    "000000163117.jpg",
+    "000000163682.jpg",
+    "000000167898.jpg",
+    "000000174231.jpg",
+    "000000218997.jpg",
+    "000000229659.jpg",
+    "000000232649.jpg",
+    "000000233567.jpg",
+    "000000234366.jpg",
+    "000000238013.jpg",
+    "000000240767.jpg",
+    "000000255718.jpg",
+    "000000267169.jpg",
+    "000000283717.jpg",
+    "000000287291.jpg",
+    "000000292060.jpg",
+    "000000306136.jpg",
+    "000000308587.jpg",
+    "000000315219.jpg",
+    "000000325306.jpg",
+    "000000377239.jpg",
+    "000000378099.jpg",
+    "000000383339.jpg",
+    "000000387098.jpg",
+    "000000389109.jpg",
+    "000000389451.jpg",
+    "000000402118.jpg",
+    "000000402346.jpg",
+    "000000430973.jpg",
+    "000000444142.jpg",
+    "000000447789.jpg",
+    "000000452515.jpg",
+    "000000453341.jpg",
+    "000000465718.jpg",
+    "000000498286.jpg",
+    "000000515077.jpg",
+    "000000526197.jpg",
+    "000000533206.jpg",
+    "000000535094.jpg",
+    "000000562121.jpg"
+  ]
+}

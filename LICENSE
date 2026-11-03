@@ -1,0 +1,12 @@
+Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Copyright 2026 Haoyang Su for the replication code and new experimental outputs.
+
+The experimental design, prompts and reference responses are adapted from:
+Murad Farzulla, Context-Dependent Affordance Reports in Vision-Language Models,
+version 3.0.0, 12 September 2026, licensed under CC BY 4.0.
+https://doi.org/10.5281/zenodo.22721059
+
+Changes comprise a native Transformers inference implementation, four-worker
+execution, an image-level analysis implementation, and an InternVL3.5 replication.
